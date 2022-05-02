@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+<link rel="icon" type="image/x-icon" href="images\favicon-32x32.png">
+<style>
+body {
+  background-image: url('\images\background.jpg');
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Monospace, 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1, h5, p {
+  text-shadow:0px 2px 0 rgba(0, 0, 0, 0.08)
+}
+
+strong {
+	background: linear-gradient(to top, #fffd84 50%, transparent 50%);
+}
+
+.link-icon{
+    padding:0px 0px 5px 0px;
+}
+
+.shadow {
+  box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<body>
+
+<div class="w3-container w3-display-middle w3-row-padding w3-margin-top">
+  <div class="w3-half w3-right-align">
+    <div class="w3-animate-top">
+      <div class="w3-padding  shake-chunk shake-constant shake-constant--hover">
+        <img src="images\profile.jpg" class="w3-circle shadow" alt="This is a picture of me." width="128" height="128" onclick="document.getElementById('modal-hi').style.display='block'">
+      </div>
+    </div>
+    <div class="w3-animate-left">
+      <h1 class=""><b>matt kwong</b></h1>
+    </div>
+    <div class="w3-animate-bottom">
+      <h6 class="shake-little" onclick="document.getElementById('modal-employment-history').style.display='block'"><strong>solutions engineer</strong> @ osaas llc</h6>
+      <p class="shake-little" onclick="document.getElementById('modal-client-history').style.display='block'">I help <strong>state and local government</strong> build and maintain new <strong>IT systems.</strong></p>
+    </div>
+  </div>
+  
+  <div class="w3-quarter w3-row-padding w3-bar-block w3-animate-right">
+    <ul class="w3-ul">
+      <br>
+      <li class="w3-round-xlarge w3-hover-black shadow w3-orange">
+        <a href="mailto:matt@kwong.tech"><span class="w3-large">email</span></a>
+        <img src="images\letter-svgrepo-com.svg" class="link-icon" alt="email icon" width="20" height="20">
+      </li>
+      <!-- <br>
+      <li class="w3-round-xlarge w3-hover-black shadow w3-khaki">
+        <a href="TBD"><span class="w3-large">website</span></a>
+        <img src="images\website-1-svgrepo-com.svg" class="link-icon" alt="website icon" width="20" height="20">
+      </li> -->
+      <br>
+      <li class="w3-round-xlarge w3-hover-black shadow w3-indigo">
+        <a href="https://www.linkedin.com/in/kwongmatthew/"><span class="w3-large">linkedIn</span></a>
+        <img src="images\linkedin-social-media-svgrepo-com.svg" class="link-icon white-icon" alt="linkedin icon" width="20" height="20">
+      </li>
+      <br>
+      <li class="w3-round-xlarge w3-hover-black w3-blue-gray">
+        <a href="https://github.com/MattKwong"><span class="w3-large">github</span></a>
+        <img src="images\github-svgrepo-com.svg" class="link-icon white-icon" alt="facebook icon" width="20" height="20">
+      </li>
+      <br>
+      <li class="w3-round-xlarge w3-hover-black shadow w3-blue">
+        <a href="https://www.facebook.com/mjkwong/"><span class="w3-large">facebook</span></a>
+        <img src="images\facebook-social-media-svgrepo-com.svg" class="link-icon white-icon" alt="facebook icon" width="20" height="20">
+      </li>
+    </ul>
+    
+  </div>
+
+  <div class="w3-container">
+    <div class="w3-row w3-center w3-animate-bottom">
+      <footer>
+        <p>© 2022 matt kwong</p>
+      </footer>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- The Modal -->
+<div id="modal-hi" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('modal-hi').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Hi!</p>
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="modal-employment-history" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('modal-employment-history').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <h5>employment history<h5>
+      <table class="w3-table-all w3-hoverable"> 
+        <tr>
+          <th>employer</th>
+          <th>role</th>
+          <th>time period</th>
+        </tr>
+        <tr>
+          <td>Osaas LLC</td>
+          <td>Solutions Engineer</td>
+          <td>03/2020 - present</td>
+        </tr>
+        <tr>
+          <td>KPMG LLP</td>
+          <td>Associate</td>
+          <td>06/2013 - 02/2020</td>
+        </tr>
+        <tr>
+          <td>Rosemont HS Band Boosters</td>
+          <td>Drumline Instructor</td>
+          <td>06/2012 - 06/2013</td>
+        </tr>
+        <tr>
+          <td>Sierra Service Project</td>
+          <td>Application Tester / IT Technician</td>
+          <td>06/2011 - 02/2013</td>
+        </tr>
+        <tr>
+          <td>Freelance</td>
+          <td>Website Developer</td>
+          <td>06/2007 - 06/2013</td>
+        </tr>
+        </table>
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="modal-client-history" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('modal-client-history').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <h5>client history<h5>
+        <table class="w3-table-all w3-hoverable"> 
+          <tr>
+            <th>client</th>
+            <th>project</th>
+            <th>time period</th>
+          </tr>
+          <tr>
+            <td>State of California Dept of Motor Vehicles</td>
+            <td>Real ID Automated Document Verification</td>
+            <td>03/2020 - 01/2022</td>
+          </tr>
+          <tr>
+            <td>State of California Secretary of State</td>
+            <td>Campaign Finance and Lobbying Registration System</td>
+            <td>06/2020 - 12/2021</td>
+          </tr>
+          <tr>
+            <td>State of California Secretary of State</td>
+            <td>Uniform Commerical Code</td>
+            <td>09/2019 - 02/2020</td>
+          </tr>
+          <tr>
+            <td>District of Columbia Dept of Healthcare Finance</td>
+            <td>DC Medicaid Eligibility System</td>
+            <td>11/2018 - 08/2019</td>
+          </tr>
+          <tr>
+            <td>State of Maine Dept of Health and Human Services</td>
+            <td>ME Medicaid Eligibility System</td>
+            <td>06/201X - 8/201X</td>
+          </tr>
+          <tr>
+            <td>State of Hawaii Dept of Human Services</td>
+            <td>HI Medicaid Eligibility System</td>
+            <td>06/2013 - 12/2018</td>
+          </tr>
+          </table>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
