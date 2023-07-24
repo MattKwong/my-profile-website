@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+	<path d="M 21.291 25.708 c 10.637 0 19.291 8.654 19.291 19.292 s -8.654 19.292 -19.291 19.292 S 2 55.637 2 45 S 10.654 25.708 21.291 25.708 M 21.291 23.708 C 9.533 23.708 0 33.241 0 45 s 9.533 21.292 21.291 21.292 S 42.583 56.759 42.583 45 S 33.05 23.708 21.291 23.708 L 21.291 23.708 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 68.709 25.708 C 79.346 25.708 88 34.363 88 45 s -8.654 19.292 -19.291 19.292 S 49.417 55.637 49.417 45 S 58.071 25.708 68.709 25.708 M 68.709 23.708 c -11.759 0 -21.292 9.533 -21.292 21.292 s 9.533 21.292 21.292 21.292 S 90 56.759 90 45 S 80.467 23.708 68.709 23.708 L 68.709 23.708 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+</svg>
